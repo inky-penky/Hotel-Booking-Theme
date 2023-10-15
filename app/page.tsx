@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import Home from './home'
 
-export default function Home() {
+
+
+
+export default function App() {
   return (
-    <div className=''>
-      
+    <div className='bg-gray-50 w-full h-screen '>
+        <Home />
     </div>
   )
 }
