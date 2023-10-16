@@ -30,7 +30,7 @@ const SearchBar = () => {
             </span>
             <span className="flex items-center gap-1">
                 <span className="bg-red-400 text-white px-1 rounded-full text-[0.7rem] -mt-5">3</span>
-                <span className=" p-1 rounded-[0.6rem] border border-gray-300 text-lg">
+                <span className=" p-1 rounded-[0.7rem] border border-gray-300 text-lg">
                     <IoNotificationsOutline />
                 </span>
             </span>
