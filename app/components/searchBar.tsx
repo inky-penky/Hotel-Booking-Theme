@@ -5,15 +5,23 @@ import {IoNotificationsOutline} from "react-icons/io5"
 
 
 const SearchBar: React.FC = () => {
+
+    interface Option {
+        weekday: 'long' | 'short' | 'narrow';
+        month: 'long' | 'short' | 'narrow' | '2-digit' | 'numeric';
+        day: '2-digit' | 'numeric';
+        year: '2-digit' | 'numeric';
+      }
+
   const currentDate = new Date();
-  const options: Intl.DateTimeFormatOptions = {
+  const options: Option = {
     weekday: 'long',
     month: 'long',
     day: 'numeric',
     year: 'numeric',
   };
 
-  const localizedDate: string = currentDate.toLocaleDateString(undefined, options);
+  const localizedDate = currentDate.toLocaleDateString(undefined, options );
 
   return (
     <div className="bg-white py-3 pl-6 pr-10 flex justify-between rounded-xl items-center">
