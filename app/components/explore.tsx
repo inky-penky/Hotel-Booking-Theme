@@ -15,19 +15,19 @@ const Explore = () => {
         </div>
         <div className="flex gap-5">
           {explore.map((place, index) => (
-            <div className="bg-white px-1 pt-1 rounded-xl flex" key={index}>
+            <div className="bg-white px-1 pt-1 rounded-xl flex w-screen" key={index}>
               <div className="w-[8rem] rounded-xl">
                 <Image src={place.image} alt="" width={120} height={50} className="rounded-xl" />
               </div>
               <div className="flex flex-col">
-                <h2 className="font-semibold text-[0.7rem]">{place.place}</h2>
-                <div className="flex items-center text-gray-400 text-[0.6rem]">
-                  <span className="">
+                <h2 className="font-semibold text-xs">{place.place}</h2>
+                <div className="flex items-center text-gray-400 text-[0.7rem] justify-between gap-20">
+                  <span className="flex items-center">
                     <CiLocationOn/>
                     <p className="">{place.location}</p>
                   </span>
                   <span className="">
-                    <p className="">{place.pric}</p>
+                    <p className="text-black">{place.price}</p>
                   </span>
                 </div>
               </div>
