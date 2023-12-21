@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mima Booking
+An airbnb platform that provides affordable shortlet apartments worldwide. 
 
 ## Getting Started
 
@@ -14,7 +15,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+Open [http://hotel-theme.vercel.app](http://hotel-theme.vercel.app) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -22,12 +24,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+You can check out [the Mima Booking GitHub repository](https://github.com/inky-penky/hotel-theme/) - your feedback and contributions are welcome!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshots
+
+![Screenshot](./public/images/fleek_template_desc_image.png)
 
 ## Deploy on Vercel
 
