@@ -29,7 +29,7 @@ You can check out [the Mima Booking GitHub repository](https://github.com/inky-p
 
 ## Screenshots
 
-![Screenshot](./public/images/fleek_template_desc_image.png)
+![Screenshot](/public/images/fleek_template_desc_image.png)
 
 ## Deploy on Vercel
 
